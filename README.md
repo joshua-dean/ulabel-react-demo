@@ -1,2 +1,6 @@
 # ULabel React Demo
-WIP
+Demonstration of using 
+[ULabel](https://github.com/SenteraLLC/ulabel)
+in a 
+[React](https://react.dev/)
+project.
