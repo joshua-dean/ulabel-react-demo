@@ -4,7 +4,7 @@ import { ULabel } from "ulabel";
 function ULabelComponent() {
   useEffect(() => {
     function on_submit(annotations) {
-      var element = document.createElement("a");
+      const element = document.createElement("a");
       element.setAttribute(
         "href",
         "data:text/plain;charset=utf-8," +
