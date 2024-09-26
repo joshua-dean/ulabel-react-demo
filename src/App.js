@@ -1,37 +1,25 @@
-/**
- * Main App component for "ulabel-react-demo"
- */
-import React from "react";
-import { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-// function Square(props) {
-//     let [color, setColor] = useState('white');
-
-//     return (
-//         <button
-//             className="square"
-//             // onClick={
-//             //     () => {
-//             //         if (color === 'black') {
-//             //             setColor('white');
-//             //         } else {
-//             //             setColor('black');
-//             //         }
-//             //     }
-//             // }
-//             // color={color}
-//         >
-//         </button>
-//     );
-// }
-
-export default function ULabelContainer() {
-    console.log("potatoe")
-    return (
-        <div>
-            <h1>Ulabel React Demo</h1>
-            {/* <Square /> */}
-        </div>
-    );
-
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
+
+export default App;
