@@ -13,9 +13,17 @@ npm install
 npm start
 ```
 
+## Development
+
+This project uses [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/).
+
+```bash
+npm run lint-and-format
+```
+
 ## Development Process
 
-This project was bootstrapped with 
+This project was bootstrapped with
 [create-react-app](https://create-react-app.dev/):
 
 ```bash
